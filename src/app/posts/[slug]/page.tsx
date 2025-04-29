@@ -21,7 +21,7 @@ export default async function Post(props: Params) {
 
   return (
     <main>
-      <Alert preview={post.preview} />
+      <Alert preview={post.README} />
       <Container>
         <Header />
         <article className="mb-32">
@@ -39,9 +39,9 @@ export default async function Post(props: Params) {
 }
 
 type Params = {
-  params: Promise<{
+  params: {
     slug: string;
-  }>;
+  };
 };
 
 export async function generateMetadata(props: Params): Promise<Metadata> {
@@ -53,6 +53,7 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
   }
 
   const title = `${post.title} | Next.js Blog Example with ${CMS_NAME}`;
+  
 
   return {
     title,
