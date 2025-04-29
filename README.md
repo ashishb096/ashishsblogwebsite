@@ -1,67 +1,56 @@
+# 📰 Ashish's Blog Website
 
-# 📝 Ashish's Cloud Blog Website
+Welcome to **Ashish's Blog Website** — a collection of beginner-friendly technical blogs focused on **AWS**, **DevOps**, and **Cloud Engineering**.
 
-Welcome to **Ashish's Cloud Blog**, a personal blog built to help beginners start their journey in cloud computing with **AWS**. This website features easy-to-follow guides, tutorials, and insights written by [Ashish Bisht](https://www.linkedin.com/in/ashishb096/), an Infrastructure Support Engineer passionate about DevOps and cloud technologies.
+This repository hosts multiple blog articles, each designed to help learners and professionals gain hands-on knowledge and understanding of core cloud concepts and tools.
 
 ## 🚀 Live Website
 
-👉 [Visit ashishscloudblog](https://ashishscloudblog.vercel.app)
+👉 [Visit Blog Website](https://ashishscloudblog.vercel.app)
 
-## 📚 Blog Topics Covered
+## 📚 Available Blogs
 
-- What is AWS?
-- Why learn AWS as a beginner?
-- Key AWS services explained
-- Step-by-step AWS learning roadmap
-- Hands-on project ideas
-- Community resources and certification guidance
+Each blog is available as a markdown file and may also have a corresponding HTML or React-based rendered version under `src/`.
 
-## 🛠️ Built With
+### 1. [Getting Started with AWS](./blogs/aws_beginner_blog.md)
+- Understand AWS and cloud computing
+- Learn about EC2, S3, IAM, Lambda, and RDS
+- Beginner roadmap, tutorials, and certification guide
 
-- **React.js** + **Vite**
-- **HTML5 & CSS3**
-- **Markdown** for blog formatting
-- **Vercel** for deployment
-- **Teal + Black** theme for a modern, minimal design
+(More blogs coming soon...)
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```bash
 ashishsblogwebsite/
-├── public/                # Static assets
-├── src/
-│   ├── components/        # Reusable React components
-│   ├── App.jsx            # Main blog content
-│   └── index.css          # Styling
-├── README.md              # This file
-└── vite.config.js         # Vite config
-```
+├── _posts/                   # Markdown blog posts
+│   └── aws_beginner_blog.md
+├── public/                  # Static assets
+├── src/                     # React components and styling
+│   └── components/
+├── README.md
 
-## 📸 Preview
 
-![Blog Cover](./public/blog-cover.png)  
-*Cover image for Ashish's Cloud Blog*
+##🛠️ Tech Stack
 
-## 🧑‍💻 How to Run Locally
 
-```bash
-git clone https://github.com/ashishb096/ashishsblogwebsite.git
-cd ashishsblogwebsite
-npm install
-npm run dev
-```
+Markdown for content
 
-Then open `http://localhost:5173` in your browser.
+Tailwind CSS (optional for styling)
 
-## 📦 Deployment
+Vercel for deployment
 
-This site is continuously deployed using **Vercel**. Any changes pushed to the `main` branch will be auto-deployed.
+## 🧑‍💻 How to Contribute
+Have a blog idea or want to contribute an article?
+Feel free to fork the repo, add your .md file in the blogs/ directory, and open a pull request.
+
 
 ## 📬 Contact
 
 - 💼 [LinkedIn](https://linkedin.com/in/ashishb096)
 - 🐙 [GitHub](https://github.com/ashishb096)
 
----
-
 > © 2025 Ashish's Cloud Blog – Built with 💻 and ☁️ by Ashish Bisht.
+
+
+
