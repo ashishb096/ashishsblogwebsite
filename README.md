@@ -1,72 +1,67 @@
-# A statically generated blog example using Next.js, Markdown, and TypeScript
 
-This is the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.
+# 📝 Ashish's Cloud Blog Website
 
-This example showcases Next.js's [Static Generation](https://nextjs.org/docs/app/building-your-application/routing/layouts-and-templates) feature using Markdown files as the data source.
+Welcome to **Ashish's Cloud Blog**, a personal blog built to help beginners start their journey in cloud computing with **AWS**. This website features easy-to-follow guides, tutorials, and insights written by [Ashish Bisht](https://www.linkedin.com/in/ashishb096/), an Infrastructure Support Engineer passionate about DevOps and cloud technologies.
 
-The blog posts are stored in `/_posts` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
+## 🚀 Live Website
 
-To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
+👉 [Visit ashishscloudblog](https://ashishscloudblog.vercel.app)
 
-## Demo
+## 📚 Blog Topics Covered
 
-[https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/)
+- What is AWS?
+- Why learn AWS as a beginner?
+- Key AWS services explained
+- Step-by-step AWS learning roadmap
+- Hands-on project ideas
+- Community resources and certification guidance
 
-## Deploy your own
+## 🛠️ Built With
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog-starter&project-name=blog-starter&repository-name=blog-starter)
+- **React.js** + **Vite**
+- **HTML5 & CSS3**
+- **Markdown** for blog formatting
+- **Vercel** for deployment
+- **Teal + Black** theme for a modern, minimal design
 
-### Related examples
-
-- [AgilityCMS](/examples/cms-agilitycms)
-- [Builder.io](/examples/cms-builder-io)
-- [ButterCMS](/examples/cms-buttercms)
-- [Contentful](/examples/cms-contentful)
-- [Cosmic](/examples/cms-cosmic)
-- [DatoCMS](/examples/cms-datocms)
-- [DotCMS](/examples/cms-dotcms)
-- [Drupal](/examples/cms-drupal)
-- [Enterspeed](/examples/cms-enterspeed)
-- [Ghost](/examples/cms-ghost)
-- [GraphCMS](/examples/cms-graphcms)
-- [Kontent.ai](/examples/cms-kontent-ai)
-- [MakeSwift](/examples/cms-makeswift)
-- [Payload](/examples/cms-payload)
-- [Plasmic](/examples/cms-plasmic)
-- [Prepr](/examples/cms-prepr)
-- [Prismic](/examples/cms-prismic)
-- [Sanity](/examples/cms-sanity)
-- [Sitecore XM Cloud](/examples/cms-sitecore-xmcloud)
-- [Sitefinity](/examples/cms-sitefinity)
-- [Storyblok](/examples/cms-storyblok)
-- [TakeShape](/examples/cms-takeshape)
-- [Tina](/examples/cms-tina)
-- [Umbraco](/examples/cms-umbraco)
-- [Umbraco heartcore](/examples/cms-umbraco-heartcore)
-- [Webiny](/examples/cms-webiny)
-- [WordPress](/examples/cms-wordpress)
-- [Blog Starter](/examples/blog-starter)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## 📂 Project Structure
 
 ```bash
-npx create-next-app --example blog-starter blog-starter-app
+ashishsblogwebsite/
+├── public/                # Static assets
+├── src/
+│   ├── components/        # Reusable React components
+│   ├── App.jsx            # Main blog content
+│   └── index.css          # Styling
+├── README.md              # This file
+└── vite.config.js         # Vite config
 ```
+
+## 📸 Preview
+
+![Blog Cover](./public/blog-cover.png)  
+*Cover image for Ashish's Cloud Blog*
+
+## 🧑‍💻 How to Run Locally
 
 ```bash
-yarn create next-app --example blog-starter blog-starter-app
+git clone https://github.com/ashishb096/ashishsblogwebsite.git
+cd ashishsblogwebsite
+npm install
+npm run dev
 ```
 
-```bash
-pnpm create next-app --example blog-starter blog-starter-app
-```
+Then open `http://localhost:5173` in your browser.
 
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
+## 📦 Deployment
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+This site is continuously deployed using **Vercel**. Any changes pushed to the `main` branch will be auto-deployed.
 
-# Notes
+## 📬 Contact
 
-`blog-starter` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
+- 💼 [LinkedIn](https://linkedin.com/in/ashishb096)
+- 🐙 [GitHub](https://github.com/ashishb096)
+
+---
+
+> © 2025 Ashish's Cloud Blog – Built with 💻 and ☁️ by Ashish Bisht.
