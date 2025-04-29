@@ -5,7 +5,7 @@ import { MoreStories } from "@/app/_components/more-stories";
 import { getAllPosts } from "@/lib/api";
 
 export default function Index() {
-  const allPosts = getAllPosts();
+  const allPosts = getAllPosts() || [];
 
   const heroPost = allPosts[0];
 
@@ -15,14 +15,19 @@ export default function Index() {
     <main>
       <Container>
         <Intro />
-        <HeroPost
-          title={heroPost.title}
-          coverImage={heroPost.coverImage}
-          date={heroPost.date}
-          author={heroPost.author}
-          slug={heroPost.slug}
-          excerpt={heroPost.excerpt}
-        />
+        {heroPost ? (
+          <HeroPost
+            title={heroPost.title}
+            coverImage={heroPost.coverImage}
+            date={heroPost.date}
+            author={heroPost.author}
+            slug={heroPost.slug}
+            excerpt={heroPost.excerpt}
+          />
+        ) : (
+          <p>No posts available.</p>
+        )
+        }
         {morePosts.length > 0 && <MoreStories posts={morePosts} />}
       </Container>
     </main>
