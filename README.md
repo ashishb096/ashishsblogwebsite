@@ -19,6 +19,15 @@ Each blog is available as a markdown file and may also have a corresponding HTML
 
 (More blogs coming soon...)
 
+## 🛠️ Tech Stack
+
+
+Markdown for content
+
+Tailwind CSS (optional for styling)
+
+Vercel for deployment
+
 ## 📁 Project Structure
 
 ```bash
@@ -30,15 +39,7 @@ ashishsblogwebsite/
 │   └── components/
 ├── README.md
 
-
-##🛠️ Tech Stack
-
-
-Markdown for content
-
-Tailwind CSS (optional for styling)
-
-Vercel for deployment
+```
 
 ## 🧑‍💻 How to Contribute
 Have a blog idea or want to contribute an article?
